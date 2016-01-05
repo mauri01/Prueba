@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<link rel="stylesheet" href="style/main.css">
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Caveat+Brush' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src='js/script.js'></script>
+
+
+
+<script type="text/javascript" src="js/jquery.nav.js"></script>
+</head>
+<body>
+
+<header>
+	<nav>
+		<ul >
+			<li><a href="#inicio">Instalación</a></li>
+			<li><a href="#inicio2">Selenium</a></li>
+			<li><a href="#inicio3">PyCharm</a></li>
+			
+		</ul>
+		
+		<img id="logo" src="img/avatar1.png" alt="">
+
+
+		<ul>
+			<li><a href="#inicio4">Prueba</a></li>
+			<li>Videos2</li>
+			<li>lala2</li>
+		</ul>
+	</nav>
+</header>
+
+<section id='banner'>
+	
+</section>
+
+
+<div class='section centro' id="inicio">
+	<br>
+	<h1 class="fuente">Instalación</h1>
+	<p>Para comenzar primero deberemos instalar Python en nuestro S.O, para ello ingresamos en la pagina de 
+	<a href="https://www.python.org ">Python</a></p>
+	<br>
+	<img src="img/i1.png" alt="">
+	<p>Una vez descargado el archivo de instalación podremos ejecutarlo, para instalarlo. Lo mas importante es 
+	habilitar la opcion Path para evitar luego tener que realizar este paso.
+	</p>
+	<br>
+	<img src="img/i2.png" alt="">
+	<br>
+	<p>Al finalizar la instalación nos dirigimos a consola y escribimos : "python --version" Nos deberá devolver
+	la versión de python que acabamos de instalar(Esto es una forma de verificar que python se instalo de forma correcta.)
+	Otra comprobación que podemos hacer es dirigirnos a las variables de entorno: Equipo->propiedades->configuracion avanzada de Sistema->Variables de Entorno->Path(Y observar si se encuentra la ruta de acceso a Python)
+	</p>
+	<br>
+</div>
+
+
+<div class='section centro' id="inicio2">
+	<br>
+	<h1 class="fuente">Instalación Selenium Webdriver</h1>
+	<br>
+	<p>Nos dirigimos a consola, en la ubicacion donde tenemos instalado Python
+	y escribimos: pip install -U selenium. Mediante este sencillo paso ya tendremos instalado Selenium.
+	Para verificar que todo fue correcto en la misma consola escribimos: python. Para poder correr selenium.
+	Ahora en python: from selenium import webdriver damos enter,
+	ff=webdriver.firefox(). Deberia abrir automaticamente una ventana de Firefox. (Lo que nos indica que selenium funciona correctamente.)</p>
+	<br>
+	
+</div>
+
+<div class='section centro ' id="inicio3">
+<br>
+	<h1 class="fuente">Instalación PyCharm</h1>
+	<br>
+	<p>El IDE a utilizar sera PyCharm
+	Descargamos entonces <a href="https://www.jetbrains.com/pycharm/">PyCharm</a> dependiendo nuestro S.O
+	su isntalacion es muy simple y no tendremos complicaciones.
+	Si todo salio bien podremos iniciar el programa y visualizar la siguiente ventana:</p>
+	<br>
+	<img src="img/p1.png" alt="">
+	<br>
+	<p>Para iniciar una nueva prueba, de igual manera que en la imagen , vamos a nuevo -> Archivo Python
+	De esta manera ya estamos listos para programar nuestra prueba.</p>
+
+	<br>
+</div>
+
+<div class='section centro fuente' id="inicio4">
+<br>
+	<h1 class="fuente">Primera Prueba Automatizada</h1>
+	<br>
+	<img src="img/p2.png" alt="">
+	<br>
+	<p>En la imagen podemos observar una prueba sencilla.
+	Donde lo que hacemos es dirigirnos a la pagina de google y verificar mediante "assert" que el titulo sea "Google"
+	para iniciar la prueba vamos a Run -> 'Run prueba' (Mayús+f10) Si todo sale bien la prueba terminara satisfactoriamente</p>
+	<br>
+	
+</div>
+
+
+<section id='body'></section>	
+
+
+
+
+</body>
+</html>
