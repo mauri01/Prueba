@@ -29,12 +29,19 @@ section#banner{
 
 }
 
-#inicio{
+#Instalacion{
 	background-color: #FBC38D;
 }
 
-#inicio3{
-	background-color: #0C9DD4;
+#PyCharm{
+	background-color: #3C998A;
+	color: white;
+
+}
+
+#Selenium{
+	background-color: #3D424F;
+	color:white;
 }
 
 img{
@@ -95,8 +102,16 @@ img#logo{
 
 }
 
-#body{
+#footer{
 	width: 100%;
-	height: 500px;
+	background-color: black;
+	background-attachment: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+
+
+
 	
 }
