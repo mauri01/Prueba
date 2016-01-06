@@ -29,6 +29,20 @@ section#banner{
 
 }
 
+.contenedor_imagen_texto{
+
+margin: 10px;
+display: inline-block;
+white-space: nowrap;
+zoom: 1;
+*display: inline;
+}
+
+#texto{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
 #Instalacion{
 	background-color: #FBC38D;
 }
@@ -115,3 +129,5 @@ img#logo{
 
 	
 }
+
+
