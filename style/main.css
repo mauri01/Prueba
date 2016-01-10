@@ -4,7 +4,7 @@
 	font-family: helvetica;
 }
 .fuente{
-font-family: 'Montserrat', sans-serif;
+font-family: 'Chelsea Market', cursive;
 text-align: center;
 margin-top: 20px;
 margin-bottom: 20px;
@@ -29,6 +29,14 @@ p{
 }
 .cuadro2{
 	width: 30%;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	font-family: 'Black Ops One', cursive;
+}
+
+.cuadro3{
+	width: 50%;
 	border-radius: 10px;
 	background-color: black;
 	color: white;
@@ -70,6 +78,11 @@ margin-bottom: 20px;
 
 #Selenium{
 	background-color: #3D424F;
+	color:white;
+}
+
+#Declaraciones{
+	background-color: #353635;
 	color:white;
 }
 
